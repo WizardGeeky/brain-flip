@@ -1,6 +1,9 @@
 ## 🧠 Brain Flip - A Fun Memory Game  
 Brain Flip is an interactive memory-based game built with Next.js & TypeScript. The game features a 4x4 grid where players must match pairs of hidden emojis. If a pair is selected incorrectly, the images swap positions randomly, making the game more challenging!
 
+![Mind Flip](https://github.com/user-attachments/assets/345689ac-9912-4d88-8ea2-94c42aaaf74d)
+
+
 ## 🚀 Features
 - ✅ 4x4 Grid Memory Game - Match pairs of hidden emojis. 
 - ✅ Randomized Grid - The board shuffles at the start. 
