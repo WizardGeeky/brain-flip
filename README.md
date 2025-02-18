@@ -1,36 +1,52 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## 🧠 Brain Flip - A Fun Memory Game  
+Brain Flip is an interactive memory-based game built with Next.js & TypeScript. The game features a 4x4 grid where players must match pairs of hidden emojis. If a pair is selected incorrectly, the images swap positions randomly, making the game more challenging!
 
-## Getting Started
+## 🚀 Features
+- ✅ 4x4 Grid Memory Game - Match pairs of hidden emojis. 
+- ✅ Randomized Grid - The board shuffles at the start. 
+- ✅ Matching Logic - Matched pairs stay visible. 
+- ✅ Incorrect Match Penalty - Wrong selections swap positions randomly. 
+- ✅ Progress Bar - Shows completion percentage with violet color. 
+- ✅ "You Win" Message - Appears when all pairs are matched. 
+- ✅ Reset Button - Allows players to restart the game anytime. 
+- ✅ Responsive Design - Works seamlessly on all screen sizes. 
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🛠 Technologies Used
+- Next.js (React framework)  
+- TypeScript (For type safety)  
+- Tailwind CSS (For styling) 
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## How to Download & Run the Project
+- 1️⃣ Clone the Repository
+bash 
+Copy 
+Edit 
+git clone https://github.com/WizardGeeky/brain-flip.git 
+cd brain-flip 
+- 2️⃣ Install Dependencies
+bash 
+Copy 
+Edit 
+npm install 
+- 3️⃣ Run the Development Server
+bash 
+Copy 
+Edit 
+npm run dev  
+Now open http://localhost:3000 in your browser to play the game! 🎮
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🎯 How to Play?
+- Click on a tile to reveal the emoji underneath.
+- Select two tiles at a time to find matching pairs.
+- If they match, they stay visible.
+- If they don’t match, they swap positions after a second.
+- Keep going until you match all pairs!
+- Track your progress with the violet progress bar.
+- Press the Reset button to restart the game anytime.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📜 License
+This project is open-source and available under the MIT License.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
