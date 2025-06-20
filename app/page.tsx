@@ -105,7 +105,7 @@ export default function MindGame() {
           </div>
         ))}
         {matched.length === totalPairs && (
-          <div className="col-span-4 text-green-600 text-2xl sm:text-3xl font-bold mt-4">
+          <div className="col-span-4 text-white text-2xl sm:text-3xl font-bold mt-4">
             You Win!
           </div>
         )}
